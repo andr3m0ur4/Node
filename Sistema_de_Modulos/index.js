@@ -1,0 +1,5 @@
+const SerialGenerator = require('./serialGenerator')
+const serialGeneratorA = new SerialGenerator()
+const serialGeneratorB = new SerialGenerator()
+console.log(serialGeneratorA === serialGeneratorB)
+console.log(serialGeneratorA.generate())
